@@ -1,0 +1,26 @@
+# 用例基本信息
+testinfo:
+      id: test_addProject            # 用例ID， 用于识别     string
+      title: 添加项目                    # 用例标题，在报告中作为一级目录显示  必填 string
+      host: localhost:9527     # 请求的域名，可写死，也可写成模板关联host配置文件  选填（此处不填，每条用例必填） string
+      address: /user/regist # 请求地址 选填（此处不填，每条用例必填） string
+
+# 前置条件，case之前需关联的接口
+# 测试用例
+test_case:
+      # 第一条case，info可不填
+      - test_name: 添加项目        # 必填，parameter为文件路径时
+      http_type: http          # 请求协议
+      request_type: post      # 请求类型
+      headers:                # 请求头
+            Content-Type: application/json
+      timeout: 8
+      parameter:
+            username: wjz
+      file: false
+      check:
+            code: 200
+            returnBody:
+                  password: 123456,
+                  name: wjz                        # 自定义失败说明
+

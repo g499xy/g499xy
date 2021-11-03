@@ -1,0 +1,65 @@
+{
+  "uid" : "49bc4dc067bafc76",
+  "name" : "test_two[1]",
+  "fullName" : "testCases.test_01.Test_Cases#test_two",
+  "historyId" : "e837416fdffd2646d5821871d99ea033",
+  "time" : {
+    "start" : 1617174348708,
+    "stop" : 1617174348708,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "_pytest.fixtures.FixtureLookupError: ('method1', <FixtureRequest for <Function test_two[1]>>)",
+  "statusTrace" : "file D:\\PycharmProjects\\pytest_automation\\testCases\\test_01.py, line 22\n      @pytest.mark.smoking\n      @pytest.mark.parametrize(\"time\", [1, 4])\n      def test_two(self,method1,time):\nE       fixture 'method1' not found\n>       available fixtures: cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, include_metadata_in_junit_xml, metadata, method, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory\n>       use 'pytest --fixtures [testpath]' for help on them.\n\nD:\\PycharmProjects\\pytest_automation\\testCases\\test_01.py:22",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试商品"
+  }, {
+    "name" : "tag",
+    "value" : "smoking"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Cases"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V2BND0M"
+  }, {
+    "name" : "thread",
+    "value" : "9028-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "time",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoking" ]
+  },
+  "source" : "49bc4dc067bafc76.json",
+  "parameterValues" : [ "1" ]
+}

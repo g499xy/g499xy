@@ -1,0 +1,91 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "pymysql.err.OperationalError: (2003, \"Can't connect to MySQL server on '192.168.186.128' (timed out)\")",
+      "children" : [ {
+        "name" : "test_two[1]",
+        "uid" : "60fa8b3d25d34e2b",
+        "parentUid" : "5b4a5cebd56e8dbf1d0b20e1f9eb50c3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621995516617,
+          "stop" : 1621995516617,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1" ]
+      }, {
+        "name" : "test_two[4]",
+        "uid" : "f2b8af53a60c7af4",
+        "parentUid" : "5b4a5cebd56e8dbf1d0b20e1f9eb50c3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621995526754,
+          "stop" : 1621995526754,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4" ]
+      }, {
+        "name" : "test_three",
+        "uid" : "f723b5e709c3b86b",
+        "parentUid" : "5b4a5cebd56e8dbf1d0b20e1f9eb50c3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621995526814,
+          "stop" : 1621995526814,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_api[body0-expect0]",
+        "uid" : "e9e29abcc9a1d8eb",
+        "parentUid" : "5b4a5cebd56e8dbf1d0b20e1f9eb50c3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621995526874,
+          "stop" : 1621995526874,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'wjz', 'password': '123456'}", "{'code': 200, 'returnBody': {'password': '123456,', 'name': 'wjz'}}" ]
+      }, {
+        "name" : "test_five[1]",
+        "uid" : "f3630ebaa7a888de",
+        "parentUid" : "5b4a5cebd56e8dbf1d0b20e1f9eb50c3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621995526934,
+          "stop" : 1621995526934,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1" ]
+      }, {
+        "name" : "test_five[4]",
+        "uid" : "3b65c074428213d7",
+        "parentUid" : "5b4a5cebd56e8dbf1d0b20e1f9eb50c3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1621995526994,
+          "stop" : 1621995526994,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "4" ]
+      } ],
+      "uid" : "5b4a5cebd56e8dbf1d0b20e1f9eb50c3"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

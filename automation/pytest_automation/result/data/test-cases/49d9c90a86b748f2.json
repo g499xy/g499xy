@@ -1,0 +1,93 @@
+{
+  "uid" : "49d9c90a86b748f2",
+  "name" : "test_five[4]",
+  "fullName" : "testCases.test_01.Test_otherClass#test_five",
+  "historyId" : "3745f7a6c9d26e20eb57eeda718c2a71",
+  "time" : {
+    "start" : 1617174446870,
+    "stop" : 1617174446870,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "method",
+    "time" : {
+      "start" : 1617174446778,
+      "stop" : 1617174446826,
+      "duration" : 48
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "method::0",
+    "time" : {
+      "start" : 1617174446870,
+      "stop" : 1617174446880,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试原料"
+  }, {
+    "name" : "tag",
+    "value" : "smoking"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_otherClass"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-V2BND0M"
+  }, {
+    "name" : "thread",
+    "value" : "2748-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCases.test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "time",
+    "value" : "4"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "smoking" ]
+  },
+  "source" : "49d9c90a86b748f2.json",
+  "parameterValues" : [ "4" ]
+}
